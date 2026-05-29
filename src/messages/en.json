@@ -1,0 +1,552 @@
+{
+  "common": {
+    "whatsapp": "Chat on WhatsApp",
+    "survey": "Request a Site Survey",
+    "learnMore": "Learn More",
+    "viewAll": "View All",
+    "getQuote": "Get a Free Quote",
+    "phone": "+974 5518 7619",
+    "email": "fms@fabtechqatar.com",
+    "address": "Madina Khalifa South, Doha, Qatar",
+    "addressFull": "Building 138, Zone 34, Street 362, Al Rabiah Building 1, Second Floor S14, Doha, Qatar",
+    "hours": "Sun–Thu: 8:00am – 5:30pm",
+    "whatsappMsg": "Hi Fabtech, I'm interested in outdoor cooling for my space. Can you help?"
+  },
+  "nav": {
+    "solutions": "Solutions",
+    "villa": "Villa & Residential",
+    "hospitality": "Hospitality & Hotels",
+    "restaurant": "Restaurants & Cafés",
+    "industrial": "Industrial & Adiabatic",
+    "products": "Products",
+    "about": "About",
+    "projects": "Projects",
+    "blog": "Blog",
+    "contact": "Contact",
+    "getQuote": "Get a Quote",
+    "menu": "Menu",
+    "close": "Close"
+  },
+  "home": {
+    "hero": {
+      "headline1": "Qatar's Summer,",
+      "headline2": "Redefined.",
+      "sub": "Italian-engineered outdoor cooling systems that make your outdoor spaces usable again — from villa pool decks to hotel terraces, all year round.",
+      "cta1": "Get a Free Site Survey",
+      "cta2": "View Our Systems",
+      "stat1Value": "9+",
+      "stat1Label": "Years Serving Qatar",
+      "stat2Value": "500+",
+      "stat2Label": "Clients",
+      "stat3Value": "Up to 15°C",
+      "stat3Label": "Temperature Drop",
+      "stat4Value": "Made in Italy",
+      "stat4Label": "Idrobase Technology"
+    },
+    "problem": {
+      "label": "WHY OUTDOOR COOLING IN QATAR",
+      "headline": "From May to October, Qatar's heat pushes people indoors.",
+      "p1": "With summer temperatures regularly exceeding 45°C, outdoor terraces, pool decks, gardens, and commercial seating areas become unusable for almost half the year.",
+      "p2": "For villa owners, that means five months of an empty garden. For restaurant operators, it means five months of lost covers. For hotels, it means closed pool decks when guests need them most.",
+      "p3": "High-pressure misting changes that. By atomising water at up to 70 bar, our Italian-engineered systems drop ambient temperatures by 10–15°C instantly — without wetting surfaces, furniture, or your guests.",
+      "footnote": "Cooling performance varies with ambient humidity. Verified in comparable Gulf climates."
+    },
+    "solutions": {
+      "label": "SOLUTIONS FOR EVERY SPACE",
+      "headline": "Whatever your outdoor space, we have the system for it.",
+      "villa": "Villa & Residential",
+      "villaDesc": "Pool decks, garden majlis, covered pergolas, entrance walkways.",
+      "hospitality": "Hospitality & Hotels",
+      "hospitalityDesc": "Pool deck multi-zones, F&B terrace, reception outdoor areas.",
+      "restaurant": "Restaurants & Cafés",
+      "restaurantDesc": "Outdoor seating, shisha lounges, garden dining, event coverage.",
+      "industrial": "Industrial & HVAC",
+      "industrialDesc": "Adiabatic pre-cooling for air-cooled chillers. Up to 30% energy saving."
+    },
+    "technology": {
+      "label": "OUR TECHNOLOGY PARTNER",
+      "headline1": "Made in Italy.",
+      "headline2": "Built for Qatar.",
+      "p1": "Every Fabtech cooling system is powered by Idrobase — an Italian manufacturer with over 40 years of engineering heritage, founded in Borgoricco, Padova in 1986.",
+      "p2": "Unlike generic misting suppliers, Idrobase systems include UV water sterilization as standard — meaning the water we atomise into the air around your family, guests, and customers is treated to drinking-water quality standards.",
+      "p3": "CE certified. ISO 9001. Made in Italy. The same technology trusted by airports, theme parks, and five-star hotels across Europe and Asia — now available in Qatar through Fabtech.",
+      "pill1": "Made in Italy",
+      "pill2": "UV Water Sterilization Standard",
+      "pill3": "CE Certified"
+    },
+    "products": {
+      "label": "OUR PRODUCT RANGE",
+      "headline": "Italian design. Qatar climate. One supplier.",
+      "aurora": "Aurora Misting Pole",
+      "auroraDesc": "The designer misting pole for pool sides and luxury terraces. Self-contained. No plumbing required. LED lighting included.",
+      "panorama": "Fan 360° Panorama LED",
+      "panoramaDesc": "Ceiling-mounted misting fan for covered outdoor areas. Silent. 95m² coverage. LED ring. Italian-engineered.",
+      "var3": "Fog 70 Var3 Touch",
+      "var3Desc": "Multi-zone commercial misting station. Up to 16 independent zones. Touchscreen control. Humidity and temperature automated.",
+      "viewAll": "View Full Product Range"
+    },
+    "why": {
+      "label": "WHY CHOOSE FABTECH",
+      "headline1": "Not just a supplier.",
+      "headline2": "A facility services company that installs and maintains what it sells.",
+      "f1Title": "Established Since 2017",
+      "f1Body": "Nine years of continuous operations in Qatar. 500+ served clients across hospitality, residential, and commercial sectors. We know Qatar's procurement, regulations, and site conditions.",
+      "f2Title": "UV-Sterilized Water as Standard",
+      "f2Body": "Every Idrobase system we install uses UV water sterilization, eliminating bacteria and biofilm before water reaches your guests. Most competitors make this an optional extra.",
+      "f3Title": "Installation and Aftercare",
+      "f3Body": "We install what we sell, with trained in-house technicians. We carry spare parts locally in Doha. Maintenance contracts available.",
+      "f4Title": "Italian-Engineered Products Only",
+      "f4Body": "Partnered exclusively with Idrobase — Italy's leading misting manufacturer for 40 years. No generic equipment. Every component CE-certified."
+    },
+    "projectsTeaser": {
+      "label": "OUR WORK IN QATAR",
+      "headline": "Installed. Photographed. Referenced.",
+      "body": "Every project we complete is documented and available as a reference. We believe the best way to buy outdoor cooling is to see it running at a comparable installation first.",
+      "cta": "View All Projects",
+      "placeholder": "European installation by Idrobase — similar configuration available in Qatar"
+    },
+    "cta": {
+      "headline": "Want to know what system fits your space?",
+      "body": "Send us your space dimensions on WhatsApp and we will come back within 2 hours with a system recommendation and indicative pricing. No commitment. Free site survey available.",
+      "whatsapp": "Chat on WhatsApp · +974 5518 7619",
+      "survey": "Request a Site Survey"
+    }
+  },
+  "villa": {
+    "meta": {
+      "title": "Villa Outdoor Cooling Qatar | Pool Deck Misting | Fabtech",
+      "description": "Italian misting systems for Qatar villas. Aurora designer poles, Panorama LED mist fans, and pergola cooling lines. Drop temperatures 10–15°C around your pool and garden."
+    },
+    "hero": {
+      "label": "VILLA & RESIDENTIAL",
+      "headline1": "Your Villa Garden,",
+      "headline2": "Usable All Summer.",
+      "sub": "Premium Italian misting solutions for pool decks, covered majlis areas, garden pergolas and outdoor seating — designed to cool and impress.",
+      "cta": "Request a Free Villa Site Survey"
+    },
+    "install": {
+      "label": "WHAT WE INSTALL FOR VILLAS",
+      "headline": "Three zones. One seamless system.",
+      "case1Title": "Pool Deck & Garden Terraces",
+      "case1Body": "The Aurora misting pole places a beautifully designed, self-contained misting column anywhere around your pool or terrace seating area. No plumbing runs required — connect water supply, position, and run. Available in rattan and natural-finish designs with integrated LED lighting.",
+      "case1Spec1": "Temperature drop: up to 15°C",
+      "case1Spec2": "Coverage per pole: up to 95m²",
+      "case1Spec3": "System: Aurora ZX.5352-MC | Self-contained 60-bar pump",
+      "case2Title": "Covered Pergolas and Majlis",
+      "case2Body": "The Linea Kit installs a discreet high-pressure misting line along your pergola or covered seating beam. Nozzles are spaced every 0.7m, producing an invisible fine mist that evaporates before reaching surfaces.",
+      "case2Spec1": "Line length: 6.75m (10-nozzle) to 29.25m (40-nozzle)",
+      "case2Spec2": "Paired pump: Fog App 2.0 (smartphone) or Fog Extra 2.0 (WiFi/thermostat)",
+      "case2Spec3": "Water quality: UV sterilized — standard",
+      "case3Title": "Covered Outdoor Ceilings",
+      "case3Body": "For fully covered areas like indoor-outdoor majlis or pergolas with solid roofs — the Fan 360° Panorama LED ceiling unit combines a misting ring with a silent fan and LED lighting. Ceiling-mounted, plug-in installation.",
+      "case3Spec1": "Coverage: 95m² per unit",
+      "case3Spec2": "System: ZX.KV2-PL / ZX.KV4-PL",
+      "case3Spec3": "Power: 230V — direct Qatar mains compatible"
+    },
+    "why": {
+      "question": "Why not just buy an air conditioning unit?",
+      "answer": "AC cools enclosed indoor spaces. It cannot cool open or semi-open outdoor areas economically or effectively. High-pressure misting works with the outdoor air — using flash evaporation to cool the ambient environment, not a sealed room. Running cost: a full Linea Kit system with Fog App pump draws less than 200W. An equivalent portable AC draws 1,500W and doesn't work outdoors."
+    },
+    "typical": {
+      "headline": "Typical Villa Installation",
+      "item1": "2 × Aurora misting poles (pool deck seating)",
+      "item2": "1 × Linea Kit 20-nozzle (pergola above majlis)",
+      "item3": "1 × Fan 360° Panorama LED (covered entrance or indoor-outdoor lounge)",
+      "item4": "1 × Fog Extra 2.0 pump (WiFi, thermostat, UV sterilization)",
+      "install": "Installation time: 1–2 days",
+      "warranty": "Warranty: 12 months parts and labour"
+    },
+    "cta": "Request a Free Villa Site Survey"
+  },
+  "hospitality": {
+    "meta": {
+      "title": "Hotel Outdoor Cooling Qatar | Pool Deck Misting System | Fabtech",
+      "description": "Multi-zone outdoor misting systems for Qatar hotels and resorts. Keep pool decks, F&B terraces and outdoor areas operational all summer."
+    },
+    "hero": {
+      "label": "HOSPITALITY & HOTELS",
+      "headline1": "Keep Your Pool Deck Open.",
+      "headline2": "Keep Your Guests Comfortable.",
+      "sub": "Multi-zone Italian misting systems for hotel pool decks, F&B outlets, cabana areas and outdoor event spaces — independently controlled, professionally installed, zero wetness.",
+      "cta": "Request a Hotel Proposal"
+    },
+    "revenue": {
+      "label": "THE REVENUE CASE",
+      "headline": "Every closed seat is lost revenue.",
+      "body": "A closed pool deck in July is lost F&B revenue. For a mid-size hotel, every outdoor seat unusable in summer represents QAR 800–1,500 of potential monthly F&B revenue per seat lost. A multi-zone misting installation pays back through the extended operating season — often within the first full summer."
+    },
+    "multizone": {
+      "label": "MULTI-ZONE CONTROL",
+      "headline": "One central pump. Up to 16 independent zones.",
+      "intro": "Fabtech installs hotel systems using the Fog 70 Var3 Touch — a professional industrial misting station with up to 16 independently controlled zones, inverter-driven pump for variable flow, and a touchscreen PLC.",
+      "b1": "Pool deck, F&B terrace, arrival court, and cabana area on one central pump",
+      "b2": "Each zone independently timed and temperature-triggered",
+      "b3": "Remote app monitoring and control",
+      "b4": "3×400V three-phase input — integrates with your MEP installation",
+      "b5": "Built-in humidistat and thermostat per zone",
+      "b6": "UV water sterilization standard",
+      "spec": "System: Fog 70 Var3 Touch | Up to 16 zones | Up to 560 nozzles | 30–70 bar variable"
+    },
+    "products": {
+      "label": "TYPICAL HOTEL INSTALLATION",
+      "headline": "Products we deploy in hotel projects:",
+      "p1": "Fog 70 Var3 Touch — central pump station",
+      "p2": "Aurora misting poles (ZX.5352-MC) — poolside and cabana accent",
+      "p3": "Fan 360° Panorama LED (ZX.KV4-PL) — F&B terrace ceiling coverage",
+      "p4": "Vento Kit 24\" fans (ZX.KV4-24) — larger volume outdoor areas",
+      "p5": "Linea Kit 40-nozzle (ZX.KL40) — terrace edge and walkway coverage",
+      "p6": "UV sterilizer — hard water / TSE supply ready"
+    },
+    "reference": "We offer site visits to comparable Idrobase installations upon request. Qatar reference installations available from Q3 2026 onwards.",
+    "cta": "Request a Hotel Proposal"
+  },
+  "restaurant": {
+    "meta": {
+      "title": "Restaurant Outdoor Cooling Qatar | Café Patio Misting | Fabtech",
+      "description": "Extend your outdoor dining season in Qatar. Mist fan kits and line systems for restaurant terraces, shisha lounges and garden cafés. Italian-engineered."
+    },
+    "hero": {
+      "label": "RESTAURANTS & CAFÉS",
+      "headline1": "More Covers.",
+      "headline2": "Five More Months.",
+      "sub": "Qatar's F&B operators lose thousands of outdoor covers every summer. Our misting systems give them back — invisibly, without wetting tables, menus, or guests.",
+      "cta": "Book a Free Terrace Assessment"
+    },
+    "roi": {
+      "label": "THE OPERATOR ROI",
+      "headline": "The numbers make the case.",
+      "body": "If your restaurant has 30 outdoor covers, and each cover averages QAR 80 per visit with 2 sittings per day, that is QAR 4,800 of daily outdoor revenue potential. Multiply by 150 summer days. A properly installed misting system typically costs QAR 35,000–60,000 for a mid-size outdoor terrace. The extended season pays it back."
+    },
+    "typical": {
+      "label": "TYPICAL INSTALLATION",
+      "headline": "For a restaurant with 60 outdoor seats:",
+      "item1": "Vento Kit 6×20\" mist fans — primary air movement and cooling",
+      "item2": "Linea Kit 30-nozzle — along terrace perimeter/overhead bar",
+      "item3": "Linea Kit 20-nozzle — shisha or entrance walkway zone",
+      "item4": "Fog Extra 2.0-3.6 pump — WiFi, thermostat, UV sterilized",
+      "item5": "4-way manifold — zone isolation for wind-sensitive areas",
+      "install": "Installation time: 2–4 days",
+      "auto": "System operates automatically on temperature trigger"
+    },
+    "objections": {
+      "label": "COMMON QUESTIONS",
+      "headline": "Honest answers to the questions operators ask.",
+      "q1": "Will it wet my tables and menus?",
+      "a1": "At 70 bar, water droplets are 10 microns in diameter — they evaporate before landing. Surfaces within 30cm of a nozzle may feel slightly damp in high-humidity conditions; we position nozzles to avoid direct table coverage.",
+      "q2": "Will it affect the food and drinks?",
+      "a2": "No. The mist evaporates in the ambient air and does not deposit moisture on served food or open drinks in normal operating conditions.",
+      "q3": "Is the water hygienic?",
+      "a3": "Every Fabtech system includes UV water sterilization as standard. The water atomised into the air around your guests has been treated to eliminate bacteria."
+    },
+    "cta": "Book a Free Terrace Assessment"
+  },
+  "industrial": {
+    "meta": {
+      "title": "Adiabatic Cooling Qatar | Chiller Pre-Cooling | Energy Saving | Fabtech",
+      "description": "Fog Adiabatico packaged kits for air-cooled chillers and dry coolers in Qatar. Increase cooling capacity 30%, reduce chiller energy consumption up to 30%. CE certified."
+    },
+    "hero": {
+      "label": "INDUSTRIAL & ADIABATIC",
+      "headline1": "Your Chillers Are",
+      "headline2": "Working Too Hard.",
+      "sub": "At 45°C ambient, Qatar's air-cooled chillers run at 60–70% efficiency. Idrobase adiabatic pre-cooling systems restore capacity and cut energy bills — with no chiller modification required.",
+      "cta": "Request an Adiabatic Assessment"
+    },
+    "technical": {
+      "label": "THE TECHNICAL CASE",
+      "headline": "Pre-cool the inlet air. Recover the capacity.",
+      "body": "Air-cooled chillers and dry coolers reject heat to ambient air. In Qatar's peak summer (45–50°C), the chiller has to work substantially harder to reject the same heat load — consuming more energy and producing less cooling capacity. Idrobase's Fog Adiabatico system pre-cools the air entering the condenser coil by atomising fine water mist in front of the coil face. As the water evaporates, it absorbs latent heat and drops the incoming air temperature by 8–15°C.",
+      "r1": "Cooling capacity increase: up to 30%",
+      "r2": "Energy consumption decrease: up to 30%",
+      "r3": "Chiller compressor run-hours reduced",
+      "r4": "Maintenance interval extended",
+      "r5": "No modification to existing chiller required",
+      "r6": "Typical installation: 1–2 days per chiller bank"
+    },
+    "range": {
+      "label": "KIT RANGE",
+      "headline": "Fog Adiabatico — packaged kits",
+      "col1": "Kit",
+      "col2": "Flow Rate",
+      "col3": "Dry Coolers",
+      "col4": "Power",
+      "footnote": "All systems include AISI 303 stainless steel distribution pipe, polyamide high-pressure pipe (100 bar rated), slip-lock connections, UV sterilizer, water inlet kit and pressure stabilizer.",
+      "kits": [
+        { "id": "ZX.FAD-0401", "flow": "4 l/min", "coolers": "1", "power": "1.5kW" },
+        { "id": "ZX.FAD-0802", "flow": "8 l/min", "coolers": "2", "power": "1.5kW" },
+        { "id": "ZX.FAD-1103", "flow": "11 l/min", "coolers": "3", "power": "1.5kW" },
+        { "id": "ZX.FAD-1504", "flow": "15 l/min", "coolers": "4", "power": "2.2kW" },
+        { "id": "ZX.FAD-2105", "flow": "21 l/min", "coolers": "5", "power": "3kW" },
+        { "id": "ZX.FAD-3308", "flow": "33 l/min", "coolers": "8", "power": "6.3kW" }
+      ]
+    },
+    "who": {
+      "label": "WHO THIS IS FOR",
+      "headline": "Any facility with air-cooled equipment.",
+      "items": [
+        "Hotel and resort HVAC plant rooms",
+        "Hospital and healthcare facilities",
+        "Data centres and server rooms",
+        "District cooling substations",
+        "Shopping mall air-cooled condenser arrays",
+        "Industrial facilities with roof-mounted DX condensers"
+      ]
+    },
+    "pilot": {
+      "label": "THE MEASUREMENT OFFER",
+      "headline": "We propose a monitored pilot installation.",
+      "body": "Commission the system on one chiller bank, measure kWh consumption and cooling capacity before and after over a 30-day period at peak ambient conditions. The data tells the story. We stand behind the performance numbers."
+    },
+    "cta": "Request an Adiabatic Assessment"
+  },
+  "products": {
+    "meta": {
+      "title": "Idrobase Misting Products Qatar | Authorised Dealer | Fabtech",
+      "description": "Full range of Idrobase misting and cooling products available in Qatar through Fabtech — from designer Aurora poles to industrial Fog 70 Var3 multi-zone systems."
+    },
+    "hero": {
+      "label": "PRODUCT RANGE",
+      "headline1": "The full Idrobase range.",
+      "headline2": "Available in Qatar.",
+      "intro": "Fabtech is Qatar's authorised dealer for Idrobase Group — an Italian manufacturer with 40 years of misting engineering heritage. Every product is CE certified, manufactured in Italy, and available for supply and installation across Qatar."
+    },
+    "cat1": {
+      "label": "DESIGNER MISTING POLES",
+      "headline": "Italian design for poolside and terrace",
+      "aurora": {
+        "name": "Aurora ZX.5352-MC",
+        "desc": "The Aurora is a self-contained misting and lighting column for outdoor residential and commercial use. Rattan-weave exterior, LED-lit crown, built-in 60-bar misting ring with 8 anti-drip stainless nozzles. No external pump required.",
+        "spec1": "Coverage: up to 95m²",
+        "spec2": "Mist output: 0.5 l/min",
+        "spec3": "Lighting: LED, 12W, 1070 lm",
+        "spec4": "Power: 230V — 50Hz | IP54",
+        "best": "Best for: villa pool decks, hotel cabana areas, resort terraces"
+      },
+      "rondo": {
+        "name": "Rondò ZX.5115",
+        "desc": "A ceiling-mounted misting fan and lighting unit in white rattan finish. For covered outdoor terraces, gazebos, and restaurant verandas. Fan + misting + LED in one unit. Silent. 95m² coverage.",
+        "spec1": "Coverage: 95m²",
+        "spec2": "Nozzles: 8 AISI 303 stainless",
+        "spec3": "Power: 100W, 230V — 50Hz"
+      }
+    },
+    "cat2": {
+      "label": "FAN 360° PANORAMA LED",
+      "headline": "The ceiling mist fan — Italian answer to overhead cooling",
+      "name": "ZX.KV2-PL / ZX.KV4-PL",
+      "desc": "The Fan 360° Panorama LED is a ceiling-mounted misting fan system combining a radial fan with an AISI 303 stainless nozzle ring. Silent operation, LED ring, designed for covered outdoor spaces.",
+      "spec1": "Diameter: 58cm | Height: 15cm",
+      "spec2": "Coverage per unit: 95m²",
+      "spec3": "Air flow: 600m³/h",
+      "spec4": "Nozzles: 8 × 0.5 l/min anti-drip",
+      "spec5": "Power: 100W, 230V — 50Hz",
+      "spec6": "Available as 2-unit kit (100m²) or 4-unit kit (200m²)",
+      "best": "Best for: hotel pool terraces, restaurant covered areas, villa outdoor lounge"
+    },
+    "cat3": {
+      "label": "VENTO KIT",
+      "headline": "High-airflow mist fans for larger outdoor spaces",
+      "desc": "The Vento Kit range provides wall-mounted or ceiling-mounted misting fans in 18\", 20\", and 24\" configurations — sold as packaged kits of 2, 4, 6, or 8 fans with all pipework, fittings, nozzles and pump connections included.",
+      "specs": "All fans: AISI 304 stainless nozzle ring, cleanable anti-drip nozzles, polyamide HP pipe (25m roll per 2 fans).",
+      "col1": "Kit",
+      "col2": "Fans",
+      "col3": "Coverage",
+      "col4": "Best for",
+      "kits": [
+        { "id": "ZX.KV2-20", "fans": "2 × 20\"", "coverage": "80m²", "best": "Small café terrace or villa covered area" },
+        { "id": "ZX.KV4-20", "fans": "4 × 20\"", "coverage": "160m²", "best": "Mid-size restaurant terrace" },
+        { "id": "ZX.KV6-20", "fans": "6 × 20\"", "coverage": "240m²", "best": "Large restaurant or commercial space" },
+        { "id": "ZX.KV8-20", "fans": "8 × 20\"", "coverage": "320m²", "best": "Large hotel or venue outdoor area" },
+        { "id": "ZX.KV4-24", "fans": "4 × 24\"", "coverage": "240m²", "best": "High-airflow hotel pool deck" }
+      ]
+    },
+    "cat4": {
+      "label": "LINEA KIT",
+      "headline": "The invisible misting line — for pergolas, walkways and beams",
+      "desc": "The Linea Kit installs a stainless steel misting line along any beam, pergola rafter or overhead structure. Nozzles spaced every 0.7m produce a fine mist that evaporates before contact with surfaces below. Complete kits include AISI 304 stainless steel pipe, nozzle holders, end valve, HP pipe, clamps, and tube cutter.",
+      "col1": "Kit",
+      "col2": "Nozzles",
+      "col3": "Line Length",
+      "kits": [
+        { "id": "ZX.KL10", "nozzles": "10", "length": "6.75m" },
+        { "id": "ZX.KL20", "nozzles": "20", "length": "14.25m" },
+        { "id": "ZX.KL30", "nozzles": "30", "length": "21.75m" },
+        { "id": "ZX.KL40", "nozzles": "40", "length": "29.25m" }
+      ],
+      "compat": "Compatible pumps: Fog Eco (10–20 nozzles), Fog App (up to 40), Fog Extra 2.0 (up to 96)."
+    },
+    "cat5": {
+      "label": "FOG PUMP SYSTEMS",
+      "headline": "From residential to commercial — the heart of every system",
+      "fogApp": {
+        "name": "Fog App 2.0",
+        "code": "ZX.FA2.0",
+        "specs": "60 bar | 2 l/min | up to 40 nozzles | smartphone-controlled",
+        "desc": "Bluetooth activation, 3 operating modes, UV sterilizer included, water inlet kit included, silent.",
+        "best": "Best for: residential villa, apartment terrace, small café"
+      },
+      "fogExtra": {
+        "name": "Fog Extra 2.0",
+        "code": "ZX.FX-3.6",
+        "specs": "70 bar | 3.6 l/min | up to 72 nozzles | WiFi + thermostat + humidistat",
+        "desc": "Built-in temperature and humidity control, remote activation, UV sterilizer included, 750-hour maintenance interval.",
+        "best": "Best for: restaurant terrace, hotel suite terrace, mid-commercial"
+      },
+      "var3": {
+        "name": "Fog 70 Var3 Touch",
+        "code": "ZX.VAR3-15DP",
+        "specs": "30–70 bar variable | 2.5–15 l/min | up to 200 nozzles | up to 16 zones",
+        "desc": "Inverter-driven variable flow, touchscreen PLC, humidity and temperature probes per zone, remote management, 3×400V three-phase.",
+        "best": "Best for: hotel pool deck, large commercial, multi-zone compound"
+      }
+    },
+    "cat6": {
+      "label": "FOG ADIABATICO",
+      "headline": "Industrial pre-cooling for air-cooled chillers",
+      "desc": "Packaged adiabatic cooling kits for air-cooled chillers and dry coolers. 70 bar systems with complete distribution components. Available for 1 to 10 dry cooler arrays.",
+      "link": "See Industrial & Adiabatic Solutions page for full details"
+    }
+  },
+  "about": {
+    "meta": {
+      "title": "About Fabtech Qatar | Outdoor Cooling & Facility Services Since 2017",
+      "description": "Fabtech Services Trading & Contracting — Qatar facility services company since 2017, expanding into Italian-engineered outdoor cooling through Idrobase partnership."
+    },
+    "hero": {
+      "label": "ABOUT FABTECH",
+      "headline1": "Eight years serving Qatar.",
+      "headline2": "Now keeping Qatar cooler.",
+      "sub": "From facility services to outdoor cooling — built on the same science of clean air and UV-treated water."
+    },
+    "story": {
+      "label": "OUR STORY",
+      "headline": "Where disinfection expertise meets outdoor cooling.",
+      "p1": "Fabtech Services Trading & Contracting was founded in Qatar in 2017 with a simple mission: to keep Qatar's facilities clean, healthy, and well maintained.",
+      "p2": "Over eight years we have served more than 500 clients across hospitality, residential compounds, commercial buildings, and healthcare facilities. We built our reputation in disinfection and air quality management — becoming one of Qatar's most active facility services providers during the COVID-19 period, deploying sanitization systems across hospitals, hotels, and public facilities.",
+      "p3": "That disinfection and air quality background is what led us to outdoor cooling. The same science that governs indoor air quality — microdroplet size, UV sterilization, water purity, distribution engineering — governs high-pressure misting. When we evaluated which technology partner to work with, we chose Idrobase: the Italian manufacturer whose UV sterilization standard matches our own belief that the air around your guests should be clean, not just cool."
+    },
+    "idrobase": {
+      "label": "THE IDROBASE PARTNERSHIP",
+      "headline": "Qatar's authorised Idrobase dealer.",
+      "p1": "Fabtech is Qatar's authorised dealer for Idrobase Group S.r.l., Borgoricco, Padova — founded 1986, one of Italy's leading manufacturers of high-pressure misting and fog systems. Every product we sell is manufactured in Italy, CE certified, and backed by Idrobase's international warranty and technical support network.",
+      "p2": "We made this choice deliberately. In a market where many suppliers source generic Asian-manufactured components and rebadge them, we chose to align with the most credible engineering-led brand available."
+    },
+    "values": {
+      "label": "OUR VALUES",
+      "headline": "Three commitments we don't compromise on.",
+      "v1Title": "Clean First",
+      "v1Body": "Every water system we install is UV sterilized as standard. Not optional. The air around your guests is treated to drinking-water quality standards.",
+      "v2Title": "Honest Specification",
+      "v2Body": "We recommend the right system for your space, not the most expensive one. Our survey is free and our advice is direct.",
+      "v3Title": "Local and Present",
+      "v3Body": "We are based in Doha, our install teams are local, our spare parts are stocked in Qatar. When something needs attention, we respond same-day."
+    },
+    "team": {
+      "label": "OUR TEAM",
+      "headline": "Qatar-based. Technically trained. Here when you need us.",
+      "placeholder": "Team bios coming soon — we're a team of specialists based in Doha with deep experience in facility services and cooling engineering."
+    },
+    "cta": "Get in Touch"
+  },
+  "projects": {
+    "meta": {
+      "title": "Outdoor Cooling Projects Qatar | Fabtech Installation Portfolio",
+      "description": "Completed outdoor misting and cooling installations by Fabtech in Qatar — villa pool decks, hotel terraces, restaurants, and commercial spaces."
+    },
+    "hero": {
+      "label": "PROJECTS",
+      "headline": "Every installation, documented.",
+      "sub": "We photograph every project we complete. Each entry includes the client context, system specification, and results. A site visit to any reference installation can be arranged on request."
+    },
+    "filters": {
+      "all": "All",
+      "villa": "Villa & Residential",
+      "hospitality": "Hospitality",
+      "restaurant": "Restaurant & Café",
+      "industrial": "Industrial"
+    },
+    "placeholder": {
+      "label": "European Idrobase Reference Installation",
+      "caption": "System configuration similar to this European Idrobase installation. Equivalent configurations available in Qatar."
+    },
+    "coming": {
+      "headline": "Qatar projects coming Q3–Q4 2026.",
+      "body": "Our first Qatar installation photography will be published here as projects complete. Until then, we reference European Idrobase installations to show comparable system configurations."
+    },
+    "cta": "Discuss Your Project"
+  },
+  "contact": {
+    "meta": {
+      "title": "Contact Fabtech Qatar | Free Outdoor Cooling Site Survey",
+      "description": "Get in touch with Fabtech Qatar for outdoor cooling enquiries, free site surveys, or product information. WhatsApp, phone, or email."
+    },
+    "hero": {
+      "label": "CONTACT",
+      "headline1": "Start with a conversation.",
+      "headline2": "Or start with a site survey.",
+      "sub": "We respond to all enquiries within 2 hours during business hours."
+    },
+    "channels": {
+      "whatsapp": {
+        "title": "WhatsApp",
+        "badge": "Fastest",
+        "body": "Send us your space dimensions, a photo of the outdoor area, and your cooling requirement. We respond within 2 hours.",
+        "cta": "WhatsApp +974 5518 7619"
+      },
+      "email": {
+        "title": "Email",
+        "body": "For formal enquiries, RFQs, technical specifications, or partnership discussions.",
+        "cta": "fms@fabtechqatar.com"
+      },
+      "office": {
+        "title": "Office",
+        "body": "Madina Khalifa South, Building 138, Zone 34, Street 362, Al Rabiah Building 1, Second Floor S14, Doha, Qatar",
+        "hours": "Sun–Thu: 8:00am – 5:30pm | Fri–Sat: Closed"
+      }
+    },
+    "form": {
+      "headline": "Send an enquiry",
+      "name": "Full Name",
+      "namePlaceholder": "Your full name",
+      "company": "Company / Property Name",
+      "companyPlaceholder": "Optional",
+      "phone": "Phone Number",
+      "phonePlaceholder": "+974...",
+      "email": "Email Address",
+      "emailPlaceholder": "you@example.com",
+      "type": "Enquiry Type",
+      "typeOptions": ["Villa / Residential", "Restaurant / Café", "Hotel / Hospitality", "Industrial / Adiabatic", "General"],
+      "space": "Describe your outdoor space",
+      "spacePlaceholder": "Dimensions, type (pool deck, terrace, pergola), number of seats, etc.",
+      "source": "How did you hear about us?",
+      "sourceOptions": ["Google", "Instagram", "Facebook", "Referral", "WhatsApp", "Other"],
+      "submit": "Request a Site Survey",
+      "required": "Required field"
+    },
+    "survey": {
+      "headline": "FREE SITE SURVEY",
+      "body": "We offer a complimentary on-site assessment for any outdoor space in Qatar. Our technician will measure your area, assess ambient conditions, review water supply, and recommend the right system.",
+      "note": "No cost. No obligation. Usually scheduled within 3–5 working days."
+    }
+  },
+  "footer": {
+    "tagline": "Clean. Cool. Healthy.",
+    "company": "Fabtech Services Trading & Contracting",
+    "solutions": "Solutions",
+    "productsCol": "Products",
+    "companyCol": "Company",
+    "contactCol": "Contact",
+    "copyright": "© 2026 Fabtech Services Trading & Contracting W.L.L. All Rights Reserved.",
+    "dealer": "Authorised Idrobase Dealer — Qatar",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "links": {
+      "about": "About Fabtech",
+      "projects": "Our Projects",
+      "blog": "Blog",
+      "careers": "Careers",
+      "contact": "Contact"
+    },
+    "whatsappUs": "WhatsApp Us"
+  }
+}
