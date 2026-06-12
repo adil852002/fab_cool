@@ -38,12 +38,12 @@ export default function Footer({ locale }: FooterProps) {
           {/* Brand column */}
           <div className="sm:col-span-2 lg:col-span-1">
             <div className="mb-4">
-              <div className="relative w-full bg-white rounded-xl overflow-hidden" style={{ height: 115 }}>
+              <div className="relative bg-white rounded-xl overflow-hidden" style={{ width: 260, height: 115 }}>
                 <Image
                   src="/Logo.png"
                   alt="Fabtech Qatar"
                   fill
-                  sizes="(max-width: 640px) 100vw, 320px"
+                  sizes="260px"
                   className="object-cover object-top"
                 />
               </div>

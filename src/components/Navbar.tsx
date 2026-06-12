@@ -58,15 +58,12 @@ export default function Navbar({ locale }: NavbarProps) {
         <div className="flex items-center justify-between h-20 lg:h-28">
           {/* Logo */}
           <Link href={localePath("/")} className="flex items-center">
-            <div
-              className="relative overflow-hidden"
-              style={{ width: 220, height: 100 }}
-            >
+            <div className="relative overflow-hidden w-[155px] h-[70px] lg:w-[220px] lg:h-[100px]">
               <Image
                 src="/Logo.png"
                 alt="Fabtech Qatar"
                 fill
-                sizes="220px"
+                sizes="(max-width: 1024px) 155px, 220px"
                 className="object-cover object-top"
                 priority
               />
