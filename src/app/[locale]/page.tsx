@@ -84,7 +84,15 @@ function HomeContent({ locale }: { locale: string }) {
             alt="Outdoor misting terrace in Qatar — Fabtech cooling system"
             fill
             priority
-            className="object-cover opacity-60"
+            className="object-cover opacity-60 hidden sm:block"
+            sizes="100vw"
+          />
+          <Image
+            src="/mob-hero.png"
+            alt="Outdoor misting terrace in Qatar — Fabtech cooling system"
+            fill
+            priority
+            className="object-cover opacity-60 sm:hidden"
             sizes="100vw"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/20 to-black/80" />
@@ -343,7 +351,7 @@ function HomeContent({ locale }: { locale: string }) {
                 href: lp("/products"),
               },
               {
-                img: "/360-fan.png",
+                img: "/360fan.png",
                 title: t("products.panorama"),
                 desc: t("products.panoramaDesc"),
                 href: lp("/products"),
