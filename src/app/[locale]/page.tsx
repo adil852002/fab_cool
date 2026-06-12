@@ -93,6 +93,11 @@ function HomeContent({ locale }: { locale: string }) {
         {/* Hero content */}
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-32 pt-32">
           <div className="max-w-3xl">
+            {/* Official Dealer badge */}
+            <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 text-white/90 text-xs font-semibold uppercase tracking-wider px-4 py-2 rounded-full mb-8">
+              <span className="w-1.5 h-1.5 rounded-full bg-cool shrink-0" />
+              {t("hero.badge")}
+            </div>
             <h1
               className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold text-white leading-none tracking-tight mb-6"
               style={{ fontFamily: "var(--font-syne), sans-serif" }}
@@ -160,6 +165,50 @@ function HomeContent({ locale }: { locale: string }) {
             <p className="font-medium text-charcoal">{t("problem.p3")}</p>
           </div>
           <p className="mt-6 text-sm text-gray-400 italic">{t("problem.footnote")}</p>
+        </div>
+      </section>
+
+      {/* ─── BENEFITS ─── */}
+      <section className="py-24 lg:py-32 bg-charcoal text-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <p className="section-label-light mb-4">{t("benefits.label")}</p>
+            <h2
+              className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white"
+              style={{ fontFamily: "var(--font-syne), sans-serif" }}
+            >
+              {t("benefits.headline")}
+            </h2>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {([
+              { num: "01", title: t("benefits.b1Title"), body: t("benefits.b1Body"), accent: "text-cool" },
+              { num: "02", title: t("benefits.b2Title"), body: t("benefits.b2Body"), accent: "text-cool" },
+              { num: "03", title: t("benefits.b3Title"), body: t("benefits.b3Body"), accent: "text-cool" },
+              { num: "04", title: t("benefits.b4Title"), body: t("benefits.b4Body"), accent: "text-cool" },
+              { num: "05", title: t("benefits.b5Title"), body: t("benefits.b5Body"), accent: "text-cool" },
+              { num: "06", title: t("benefits.b6Title"), body: t("benefits.b6Body"), accent: "text-brand" },
+            ] as const).map((b) => (
+              <div
+                key={b.num}
+                className="relative bg-white/5 hover:bg-white/10 transition-colors rounded-2xl p-8 border border-white/10"
+              >
+                <p
+                  className="text-5xl font-bold text-white/5 select-none leading-none mb-4"
+                  style={{ fontFamily: "var(--font-syne), sans-serif" }}
+                >
+                  {b.num}
+                </p>
+                <h3
+                  className="text-base font-bold text-white mb-3"
+                  style={{ fontFamily: "var(--font-syne), sans-serif" }}
+                >
+                  {b.title}
+                </h3>
+                <p className="text-sm text-white/60 leading-relaxed">{b.body}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 

@@ -52,6 +52,26 @@ function ProductsContent({ locale }: { locale: string }) {
         </div>
       </section>
 
+      {/* Authorized Dealer Trust Bar */}
+      <section className="bg-cool/10 border-y border-cool/20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+          <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-2">
+            {[
+              { icon: "🇮🇹", text: "Made in Italy — Idrobase Group" },
+              { icon: "✓", text: "Official Qatar Distributor" },
+              { icon: "✓", text: "CE Certified" },
+              { icon: "✓", text: "ISO 9001" },
+              { icon: "✓", text: "230V / 50Hz — GCC Native" },
+            ].map((item) => (
+              <span key={item.text} className="flex items-center gap-1.5 text-sm font-medium text-charcoal/80">
+                <span className="text-cool font-bold">{item.icon}</span>
+                {item.text}
+              </span>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Cat 1 — Aurora / Rondò */}
       <section className="py-24 lg:py-32 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

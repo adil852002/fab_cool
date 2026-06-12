@@ -41,7 +41,8 @@
       "stat3Value": "Up to 15°C",
       "stat3Label": "Temperature Drop",
       "stat4Value": "Made in Italy",
-      "stat4Label": "Idrobase Technology"
+      "stat4Label": "Idrobase Technology",
+      "badge": "Official Idrobase Dealer · Qatar"
     },
     "problem": {
       "label": "WHY OUTDOOR COOLING IN QATAR",
@@ -50,6 +51,22 @@
       "p2": "For villa owners, that means five months of an empty garden. For restaurant operators, it means five months of lost covers. For hotels, it means closed pool decks when guests need them most.",
       "p3": "High-pressure misting changes that. By atomising water at up to 70 bar, our Italian-engineered systems drop ambient temperatures by 10–15°C instantly — without wetting surfaces, furniture, or your guests.",
       "footnote": "Cooling performance varies with ambient humidity. Verified in comparable Gulf climates."
+    },
+    "benefits": {
+      "label": "WHY HIGH-PRESSURE MISTING",
+      "headline": "Six reasons it works.",
+      "b1Title": "Up to 15°C Temperature Drop",
+      "b1Body": "Flash evaporation at 60–70 bar drops ambient air temperature instantly. Independently verified in Gulf climates — not a lab figure.",
+      "b2Title": "UV-Sterilized Water as Standard",
+      "b2Body": "Every system includes UV water sterilization. The mist around your guests meets drinking-water quality standards before it reaches the air.",
+      "b3Title": "Surfaces Stay Dry",
+      "b3Body": "At 70 bar, water droplets are 10 microns — they evaporate before contacting surfaces. Tables, menus, and guests stay completely dry.",
+      "b4Title": "GCC Mains Native",
+      "b4Body": "230V / 50Hz — Qatar mains voltage. No transformer required. Engineered for Gulf climate and power supply from day one.",
+      "b5Title": "Low Running Cost",
+      "b5Body": "A full residential system draws under 200W. Running cost is a fraction of any comparable portable AC — which cannot cool outdoors anyway.",
+      "b6Title": "Installed & Maintained in Qatar",
+      "b6Body": "Fabtech installs every system with trained in-house technicians. Spare parts stocked in Doha. Annual service contracts available."
     },
     "solutions": {
       "label": "SOLUTIONS FOR EVERY SPACE",
@@ -427,7 +444,7 @@
     },
     "idrobase": {
       "label": "THE IDROBASE PARTNERSHIP",
-      "headline": "Qatar's authorised Idrobase dealer.",
+      "headline": "Qatar's Official Idrobase Distributor.",
       "p1": "Fabtech is Qatar's authorised dealer for Idrobase Group S.r.l., Borgoricco, Padova — founded 1986, one of Italy's leading manufacturers of high-pressure misting and fog systems. Every product we sell is manufactured in Italy, CE certified, and backed by Idrobase's international warranty and technical support network.",
       "p2": "We made this choice deliberately. In a market where many suppliers source generic Asian-manufactured components and rebadge them, we chose to align with the most credible engineering-led brand available."
     },

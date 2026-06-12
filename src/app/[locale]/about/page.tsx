@@ -94,40 +94,65 @@ function AboutContent({ locale }: { locale: string }) {
       </section>
 
       {/* Idrobase partnership */}
-      <section className="py-24 lg:py-32 bg-sand">
+      <section className="py-24 lg:py-32 bg-charcoal text-white overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            <div className="lg:order-2">
-              <p className="section-label mb-5">{t("idrobase.label")}</p>
+            <div>
+              <p className="section-label-light mb-5">{t("idrobase.label")}</p>
               <h2
-                className="text-3xl sm:text-4xl font-bold text-charcoal mb-8"
+                className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-8 leading-tight"
                 style={{ fontFamily: "var(--font-syne), sans-serif" }}
               >
                 {t("idrobase.headline")}
               </h2>
-              <div className="space-y-5 text-gray-600 leading-relaxed">
+              <div className="space-y-5 text-white/70 leading-relaxed mb-10">
                 <p>{t("idrobase.p1")}</p>
                 <p>{t("idrobase.p2")}</p>
               </div>
-              <div className="flex flex-wrap gap-3 mt-8">
-                {["Made in Italy", "CE Certified", "ISO 9001", "Est. 1986"].map((pill) => (
+              {/* Credential pills */}
+              <div className="flex flex-wrap gap-3">
+                {[
+                  { label: "🇮🇹 Made in Italy" },
+                  { label: "CE Certified" },
+                  { label: "ISO 9001" },
+                  { label: "Est. 1986" },
+                  { label: "40+ Years Manufacturing" },
+                ].map((p) => (
                   <span
-                    key={pill}
-                    className="px-4 py-1.5 rounded-full border-2 border-charcoal/20 text-sm font-medium text-charcoal"
+                    key={p.label}
+                    className="pill border-cool/60 text-cool"
                   >
-                    {pill}
+                    {p.label}
                   </span>
                 ))}
               </div>
             </div>
-            <div className="lg:order-1 aspect-[4/3] rounded-2xl overflow-hidden">
-              <Image
-                src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80"
-                alt="Idrobase misting products from Italy"
-                width={800}
-                height={600}
-                className="w-full h-full object-cover"
-              />
+            <div className="relative">
+              <div className="aspect-[4/3] rounded-2xl overflow-hidden">
+                <Image
+                  src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80"
+                  alt="Idrobase misting products from Italy"
+                  width={800}
+                  height={600}
+                  className="w-full h-full object-cover opacity-80"
+                />
+              </div>
+              {/* Official Dealer Card */}
+              <div className="absolute -bottom-4 -end-4 bg-cool text-white rounded-2xl px-6 py-5 shadow-2xl max-w-[220px]">
+                <p className="text-xs font-semibold uppercase tracking-wider opacity-80 mb-1">
+                  Official Dealer
+                </p>
+                <p
+                  className="text-2xl font-bold leading-tight"
+                  style={{ fontFamily: "var(--font-syne), sans-serif" }}
+                >
+                  Idrobase
+                </p>
+                <p className="text-xs opacity-70 mt-0.5">Group S.r.l. · Padova, Italy</p>
+                <div className="mt-3 pt-3 border-t border-white/20 text-xs opacity-70">
+                  Qatar's Authorized Distributor
+                </div>
+              </div>
             </div>
           </div>
         </div>
