@@ -89,7 +89,7 @@ function ProductsContent({ locale }: { locale: string }) {
             <div className="bg-sand rounded-2xl overflow-hidden border border-border">
               <div className="aspect-[16/9] relative">
                 <Image
-                  src="https://images.unsplash.com/photo-1544984243-ec57ea16fe25?w=800&q=80"
+                  src="/aurora2.png"
                   alt="Aurora Misting Pole"
                   fill
                   className="object-cover"
@@ -125,7 +125,7 @@ function ProductsContent({ locale }: { locale: string }) {
             <div className="bg-sand rounded-2xl overflow-hidden border border-border">
               <div className="aspect-[16/9] relative">
                 <Image
-                  src="https://images.unsplash.com/photo-1586771107445-d3ca888129ff?w=800&q=80"
+                  src="/rondo.png"
                   alt="Rondò ceiling fan"
                   fill
                   className="object-cover"
@@ -189,7 +189,7 @@ function ProductsContent({ locale }: { locale: string }) {
             </div>
             <div className="aspect-[4/3] rounded-2xl overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
+                src="/360fan.png"
                 alt="Panorama LED ceiling mist fan"
                 width={800}
                 height={600}
@@ -295,7 +295,7 @@ function ProductsContent({ locale }: { locale: string }) {
             </div>
             <div className="aspect-[4/3] rounded-2xl overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80"
+                src="/linea.png"
                 alt="Linea Kit pergola misting installation"
                 width={800}
                 height={600}

@@ -80,11 +80,11 @@ function HomeContent({ locale }: { locale: string }) {
         {/* Background */}
         <div className="absolute inset-0 bg-charcoal">
           <Image
-            src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1920&q=80"
-            alt="Luxury pool terrace"
+            src="/hero-home.jpg"
+            alt="Outdoor misting terrace in Qatar — Fabtech cooling system"
             fill
             priority
-            className="object-cover opacity-50"
+            className="object-cover opacity-60"
             sizes="100vw"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/20 to-black/80" />
@@ -337,19 +337,19 @@ function HomeContent({ locale }: { locale: string }) {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
             {[
               {
-                img: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=600&q=80",
+                img: "/aurora-1.jpg",
                 title: t("products.aurora"),
                 desc: t("products.auroraDesc"),
                 href: lp("/products"),
               },
               {
-                img: "https://images.unsplash.com/photo-1586771107445-d3ca888129ff?w=600&q=80",
+                img: "/360-fan.png",
                 title: t("products.panorama"),
                 desc: t("products.panoramaDesc"),
                 href: lp("/products"),
               },
               {
-                img: "https://images.unsplash.com/photo-1565115030792-5ea5ba66d4c8?w=600&q=80",
+                img: "/fog-70-var3.png",
                 title: t("products.var3"),
                 desc: t("products.var3Desc"),
                 href: lp("/products"),
@@ -443,7 +443,7 @@ function HomeContent({ locale }: { locale: string }) {
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
             {[
-              "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=700&q=80",
+              "/hero-home.jpg",
               "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=700&q=80",
               "https://images.unsplash.com/photo-1504376830547-506dedfe681a?w=700&q=80",
             ].map((img, i) => (
