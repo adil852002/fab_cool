@@ -85,6 +85,10 @@ export default function Footer({ locale }: FooterProps) {
                 { label: nav("hospitality"), href: localePath("/solutions/hospitality") },
                 { label: nav("restaurant"), href: localePath("/solutions/restaurant") },
                 { label: nav("industrial"), href: localePath("/solutions/industrial") },
+                { label: nav("coolCoatings"), href: localePath("/solutions/cool-coatings") },
+                { label: nav("shadeMisting"), href: localePath("/solutions/shade-misting") },
+                { label: nav("personalCooling"), href: localePath("/solutions/personal-cooling") },
+                { label: nav("mosquitoControl"), href: localePath("/solutions/mosquito-control") },
               ].map((item) => (
                 <li key={item.href}>
                   <Link
@@ -105,12 +109,14 @@ export default function Footer({ locale }: FooterProps) {
             </h3>
             <ul className="space-y-2.5 mb-8">
               {[
-                { label: "Aurora Misting Pole", href: localePath("/products") },
-                { label: "Panorama LED Fan", href: localePath("/products") },
-                { label: "Vento Kit Fans", href: localePath("/products") },
-                { label: "Linea Kit", href: localePath("/products") },
-                { label: "Fog Pump Systems", href: localePath("/products") },
-                { label: "Industrial Systems", href: localePath("/products") },
+                { label: "Aurora Misting Pole", href: localePath("/products/aurora-misting-pole") },
+                { label: "Panorama LED Fan", href: localePath("/products/panorama-led-fan") },
+                { label: "Vento Kit Fans", href: localePath("/products/vento-kit-fans") },
+                { label: "Linea Kit", href: localePath("/products/linea-kit") },
+                { label: "Fog Pump Systems", href: localePath("/products/fog-extra-pump") },
+                { label: "Industrial Systems", href: localePath("/products/fog-adiabatico") },
+                { label: "Cool Roof Coatings", href: localePath("/solutions/cool-coatings") },
+                { label: "PCM Cooling Vests", href: localePath("/solutions/personal-cooling") },
               ].map((item) => (
                 <li key={item.label}>
                   <Link
@@ -130,7 +136,7 @@ export default function Footer({ locale }: FooterProps) {
               {[
                 { key: "about", href: localePath("/about") },
                 { key: "projects", href: localePath("/projects") },
-                { key: "blog", href: "#" },
+                { key: "blog", href: localePath("/blog") },
                 { key: "careers", href: "#" },
                 { key: "contact", href: localePath("/contact") },
               ].map((item) => (

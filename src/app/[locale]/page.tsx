@@ -40,30 +40,14 @@ function HomeContent({ locale }: { locale: string }) {
   ];
 
   const solutions = [
-    {
-      icon: "🏡",
-      title: t("solutions.villa"),
-      desc: t("solutions.villaDesc"),
-      href: lp("/solutions/villa"),
-    },
-    {
-      icon: "🏨",
-      title: t("solutions.hospitality"),
-      desc: t("solutions.hospitalityDesc"),
-      href: lp("/solutions/hospitality"),
-    },
-    {
-      icon: "🍽️",
-      title: t("solutions.restaurant"),
-      desc: t("solutions.restaurantDesc"),
-      href: lp("/solutions/restaurant"),
-    },
-    {
-      icon: "🏭",
-      title: t("solutions.industrial"),
-      desc: t("solutions.industrialDesc"),
-      href: lp("/solutions/industrial"),
-    },
+    { icon: "🏡", title: t("solutions.villa"), desc: t("solutions.villaDesc"), href: lp("/solutions/villa") },
+    { icon: "🏨", title: t("solutions.hospitality"), desc: t("solutions.hospitalityDesc"), href: lp("/solutions/hospitality") },
+    { icon: "🍽️", title: t("solutions.restaurant"), desc: t("solutions.restaurantDesc"), href: lp("/solutions/restaurant") },
+    { icon: "🏭", title: t("solutions.industrial"), desc: t("solutions.industrialDesc"), href: lp("/solutions/industrial") },
+    { icon: "🌡️", title: t("solutions.coolCoatings"), desc: t("solutions.coolCoatingsDesc"), href: lp("/solutions/cool-coatings") },
+    { icon: "⛱️", title: t("solutions.shadeMisting"), desc: t("solutions.shadeMistingDesc"), href: lp("/solutions/shade-misting") },
+    { icon: "🦺", title: t("solutions.personalCooling"), desc: t("solutions.personalCoolingDesc"), href: lp("/solutions/personal-cooling") },
+    { icon: "🦟", title: t("solutions.mosquitoControl"), desc: t("solutions.mosquitoControlDesc"), href: lp("/solutions/mosquito-control") },
   ];
 
   const whyItems = [
@@ -153,6 +137,7 @@ function HomeContent({ locale }: { locale: string }) {
                 </div>
               ))}
             </div>
+            <p className="text-center text-white/40 text-xs pb-3 -mt-1 italic">{t("hero.statFootnote")}</p>
           </div>
         </div>
       </section>
@@ -422,6 +407,70 @@ function HomeContent({ locale }: { locale: string }) {
                 </h3>
                 <p className="text-sm text-gray-500 leading-relaxed">{item.body}</p>
               </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ─── HOW WE WORK ─── */}
+      <section className="py-24 lg:py-32 bg-charcoal text-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <p className="section-label-light mb-4">{t("how.label")}</p>
+            <h2
+              className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white"
+              style={{ fontFamily: "var(--font-syne), sans-serif" }}
+            >
+              {t("how.headline")}
+            </h2>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-6">
+            {([
+              { num: "01", title: t("how.s1Title"), body: t("how.s1Body") },
+              { num: "02", title: t("how.s2Title"), body: t("how.s2Body") },
+              { num: "03", title: t("how.s3Title"), body: t("how.s3Body") },
+              { num: "04", title: t("how.s4Title"), body: t("how.s4Body") },
+              { num: "05", title: t("how.s5Title"), body: t("how.s5Body") },
+            ] as const).map((step) => (
+              <div key={step.num} className="relative bg-white/5 rounded-2xl p-6 border border-white/10">
+                <p className="text-4xl font-bold text-white/5 select-none leading-none mb-3" style={{ fontFamily: "var(--font-syne), sans-serif" }}>{step.num}</p>
+                <h3 className="text-sm font-bold text-cool mb-2 uppercase tracking-wider">{step.title}</h3>
+                <p className="text-sm text-white/60 leading-relaxed">{step.body}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ─── FAQ ─── */}
+      <section className="py-24 lg:py-32 bg-sand">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-14">
+            <p className="section-label mb-4">{t("faq.label")}</p>
+            <h2
+              className="text-3xl sm:text-4xl font-bold text-charcoal"
+              style={{ fontFamily: "var(--font-syne), sans-serif" }}
+            >
+              {t("faq.headline")}
+            </h2>
+          </div>
+          <div className="space-y-4">
+            {([
+              { q: t("faq.q1"), a: t("faq.a1") },
+              { q: t("faq.q2"), a: t("faq.a2") },
+              { q: t("faq.q3"), a: t("faq.a3") },
+              { q: t("faq.q4"), a: t("faq.a4") },
+              { q: t("faq.q5"), a: t("faq.a5") },
+              { q: t("faq.q6"), a: t("faq.a6") },
+              { q: t("faq.q7"), a: t("faq.a7") },
+            ] as const).map((item, i) => (
+              <details key={i} className="group bg-white rounded-2xl border border-border overflow-hidden">
+                <summary className="flex items-center justify-between px-6 py-5 cursor-pointer list-none font-semibold text-charcoal text-sm">
+                  {item.q}
+                  <ChevronRight size={16} className="shrink-0 text-brand transition-transform group-open:rotate-90 ms-4" />
+                </summary>
+                <p className="px-6 pb-5 text-sm text-gray-600 leading-relaxed">{item.a}</p>
+              </details>
             ))}
           </div>
         </div>

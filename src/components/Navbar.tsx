@@ -41,6 +41,12 @@ export default function Navbar({ locale }: NavbarProps) {
     { label: t("restaurant"), href: localePath("/solutions/restaurant") },
     { label: t("industrial"), href: localePath("/solutions/industrial") },
   ];
+  const moreSolutionLinks = [
+    { label: t("coolCoatings"), href: localePath("/solutions/cool-coatings") },
+    { label: t("shadeMisting"), href: localePath("/solutions/shade-misting") },
+    { label: t("personalCooling"), href: localePath("/solutions/personal-cooling") },
+    { label: t("mosquitoControl"), href: localePath("/solutions/mosquito-control") },
+  ];
 
   const isHome = pathname === `/${locale}` || pathname === `/${locale}/`;
 
@@ -95,13 +101,24 @@ export default function Navbar({ locale }: NavbarProps) {
 
               {solutionsOpen && (
                 <div
-                  className={`absolute top-full ${isArabic ? "right-0" : "left-0"} w-56 bg-white rounded-xl shadow-xl border border-border pt-1 pb-2`}
+                  className={`absolute top-full ${isArabic ? "right-0" : "left-0"} w-64 bg-white rounded-xl shadow-xl border border-border pt-1 pb-2`}
                 >
                   {solutionLinks.map((link) => (
                     <Link
                       key={link.href}
                       href={link.href}
                       className="block px-4 py-2.5 text-sm text-charcoal hover:bg-sand hover:text-brand transition-colors"
+                    >
+                      {link.label}
+                    </Link>
+                  ))}
+                  <div className="border-t border-border mx-3 my-1.5" />
+                  <p className="px-4 py-1 text-xs font-semibold text-gray-400 uppercase tracking-wider">More Services</p>
+                  {moreSolutionLinks.map((link) => (
+                    <Link
+                      key={link.href}
+                      href={link.href}
+                      className="block px-4 py-2 text-sm text-charcoal hover:bg-sand hover:text-brand transition-colors"
                     >
                       {link.label}
                     </Link>
@@ -189,6 +206,17 @@ export default function Navbar({ locale }: NavbarProps) {
                   href={link.href}
                   onClick={() => setIsOpen(false)}
                   className="block px-4 py-2.5 text-sm text-charcoal hover:text-brand"
+                >
+                  {link.label}
+                </Link>
+              ))}
+              <div className="border-t border-border mx-3 my-1" />
+              {moreSolutionLinks.map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  onClick={() => setIsOpen(false)}
+                  className="block px-4 py-2 text-sm text-charcoal hover:text-brand"
                 >
                   {link.label}
                 </Link>

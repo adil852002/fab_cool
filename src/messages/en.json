@@ -25,21 +25,26 @@
     "contact": "Contact",
     "getQuote": "Get a Quote",
     "menu": "Menu",
-    "close": "Close"
+    "close": "Close",
+    "coolCoatings": "Cool Roof & Surface Coatings",
+    "shadeMisting": "Shade Structures + Misting",
+    "personalCooling": "Personal Cooling (PCM Vests)",
+    "mosquitoControl": "Mosquito Control Misting"
   },
   "home": {
     "hero": {
       "headline1": "Qatar's Summer,",
       "headline2": "Redefined.",
-      "sub": "Italian-engineered outdoor cooling systems that make your outdoor spaces usable again — from villa pool decks to hotel terraces, all year round.",
+      "sub": "Italian-engineered outdoor comfort systems — misting, cool coatings, shade structures, and personal cooling. From villa pool decks to hotel terraces to outdoor workforces.",
+      "statFootnote": "*Reduction varies with ambient humidity. 5–8°C typical in humid coastal Doha; 8–15°C in drier inland conditions.",
       "cta1": "Get a Free Site Survey",
       "cta2": "View Our Systems",
       "stat1Value": "9+",
       "stat1Label": "Years Serving Qatar",
       "stat2Value": "500+",
       "stat2Label": "Clients",
-      "stat3Value": "Up to 15°C",
-      "stat3Label": "Temperature Drop",
+      "stat3Value": "5–15°C",
+      "stat3Label": "Temperature Drop*",
       "stat4Value": "Made in Italy",
       "stat4Label": "Idrobase Technology",
       "badge": "Official Idrobase Dealer · Qatar"
@@ -78,7 +83,15 @@
       "restaurant": "Restaurants & Cafés",
       "restaurantDesc": "Outdoor seating, shisha lounges, garden dining, event coverage.",
       "industrial": "Industrial & HVAC",
-      "industrialDesc": "Adiabatic pre-cooling for air-cooled chillers. Up to 30% energy saving."
+      "industrialDesc": "Adiabatic pre-cooling for air-cooled chillers. Up to 30% energy saving.",
+      "coolCoatings": "Cool Roof & Surface Coatings",
+      "coolCoatingsDesc": "Nano-ceramic reflective coatings. Reduce roof surface temp 15–20°C.",
+      "shadeMisting": "Shade Structures + Misting",
+      "shadeMistingDesc": "Tensile shade with integrated misting. The complete outdoor system.",
+      "personalCooling": "Personal Cooling Solutions",
+      "personalCoolingDesc": "PCM cooling vests for outdoor workers. Qatar MoL compliant.",
+      "mosquitoControl": "Mosquito & Insect Control",
+      "mosquitoControlDesc": "Same system, second function. Dusk-activated insect repellent misting."
     },
     "technology": {
       "label": "OUR TECHNOLOGY PARTNER",
@@ -107,7 +120,7 @@
       "headline1": "Not just a supplier.",
       "headline2": "A facility services company that installs and maintains what it sells.",
       "f1Title": "Established Since 2017",
-      "f1Body": "Nine years of continuous operations in Qatar. 500+ served clients across hospitality, residential, and commercial sectors. We know Qatar's procurement, regulations, and site conditions.",
+      "f1Body": "We are not an equipment supplier with a service team bolted on. We are a nine-year-old Qatar facility services company — disinfection, air quality, cleaning — that added outdoor cooling because our clients asked for it. We understand operations, we understand Qatar's procurement environment, and we understand what happens after the installation.",
       "f2Title": "UV-Sterilized Water as Standard",
       "f2Body": "Every Idrobase system we install uses UV water sterilization, eliminating bacteria and biofilm before water reaches your guests. Most competitors make this an optional extra.",
       "f3Title": "Installation and Aftercare",
@@ -121,6 +134,38 @@
       "body": "Every project we complete is documented and available as a reference. We believe the best way to buy outdoor cooling is to see it running at a comparable installation first.",
       "cta": "View All Projects",
       "placeholder": "European installation by Idrobase — similar configuration available in Qatar"
+    },
+    "how": {
+      "label": "OUR PROCESS",
+      "headline": "Five steps. No surprises.",
+      "s1Title": "FREE SITE SURVEY",
+      "s1Body": "We visit within 3–5 working days. No cost, no commitment.",
+      "s2Title": "SYSTEM DESIGN",
+      "s2Body": "Full proposal with exact specification and fixed all-inclusive price within 48 hours.",
+      "s3Title": "INSTALLATION",
+      "s3Body": "In-house trained team. 1–2 days residential. 3–7 days commercial multi-zone.",
+      "s4Title": "COMMISSIONING",
+      "s4Body": "Tested, certified, full handover. Written warranty pack.",
+      "s5Title": "AFTERCARE",
+      "s5Body": "Annual maintenance contracts. Spare parts stocked in Doha. Same-day commercial response."
+    },
+    "faq": {
+      "label": "QUESTIONS",
+      "headline": "Everything you need to know before you buy.",
+      "q1": "Will the mist wet my guests, furniture, or food?",
+      "a1": "No. At 70 bar, Idrobase systems produce 10-micron droplets that flash-evaporate before landing on any surface in a correctly designed installation. Guests, tables, menus, and furniture remain completely dry.",
+      "q2": "Is the mist water safe to breathe?",
+      "a2": "Every system includes UV water sterilization as standard — not as an option. Water meets drinking-water treatment standards before atomization.",
+      "q3": "Does it work in Qatar's humidity?",
+      "a3": "Yes, with realistic expectations. Fan-assisted systems (Panorama LED, Vento Kit) deliver 8–12°C reduction even on humid days. Plain misting lines work best on shaded or ventilated sites. We advise on the right system for your specific location.",
+      "q4": "How much does it cost?",
+      "a4": "Villa residential: from QAR 25,000 installed. Restaurant terrace: from QAR 35,000. Hotel multi-zone: from QAR 150,000. Contact us for a site-specific quote.",
+      "q5": "How long does installation take?",
+      "a5": "1–2 days residential. 2–4 days restaurant. 5–10 days hotel multi-zone.",
+      "q6": "Do I need Civil Defence approval?",
+      "a6": "For fixed commercial overhead installations — yes. Fabtech manages this process on your behalf as part of every commercial project.",
+      "q7": "What happens if a nozzle clogs?",
+      "a7": "Idrobase anti-drip nozzles are cleanable without tools. We stock replacements in Doha. A clogged nozzle cannot damage the pump."
     },
     "cta": {
       "headline": "Want to know what system fits your space?",
@@ -545,6 +590,185 @@
       "body": "We offer a complimentary on-site assessment for any outdoor space in Qatar. Our technician will measure your area, assess ambient conditions, review water supply, and recommend the right system.",
       "note": "No cost. No obligation. Usually scheduled within 3–5 working days."
     }
+  },
+  "coolCoatings": {
+    "meta": {
+      "title": "Cool Roof & Surface Coatings Qatar | Thermal Reflective Paint | Fabtech",
+      "description": "Nano-ceramic reflective coatings reduce Qatar roof surface temperature by 15–20°C. Lower AC load, lower electricity bills. Fabtech supply and application. Free assessment."
+    },
+    "hero": {
+      "label": "COOL ROOF & SURFACE COATINGS",
+      "headline": "Stop the Heat Before It Enters.",
+      "sub": "Nano-ceramic reflective coatings that reduce your roof surface temperature by 15–20°C — lowering your AC load, your electricity bill, and the heat radiating into every room below.",
+      "cta": "Request a Roof Assessment"
+    },
+    "problem": {
+      "label": "THE PROBLEM",
+      "headline": "Your roof is absorbing 90% of Qatar's sun right now.",
+      "body": "An uncoated dark roof or metal sheet in Qatar summer reaches 75–80°C surface temperature. That heat conducts downward into occupied spaces and radiates upward, creating a heat dome above every outdoor area adjacent to that surface. Standard AC systems are sized to overcome this heat load — which means they run harder, consume more electricity, and age faster when roofs are uncoated."
+    },
+    "how": {
+      "label": "HOW IT WORKS",
+      "headline": "Three steps. Lasting results.",
+      "s1Title": "01 APPLY",
+      "s1Body": "Nano-ceramic water-based coating sprayed or rolled onto clean roof surface. Compatible with concrete, metal, tiles, and bitumen membrane.",
+      "s2Title": "02 REFLECT",
+      "s2Body": "Ceramic particles reflect up to 90% of solar radiation instead of absorbing it. Surface temperature drops 15–20°C within hours of application.",
+      "s3Title": "03 LAST",
+      "s3Body": "Single application lasts 5–7 years in Qatar climate. UV stable. Waterproof. No maintenance required in the lifespan."
+    },
+    "apps": {
+      "label": "APPLICATIONS",
+      "headline": "Every surface. Every property type.",
+      "a1": "Villas & Residential — roof surfaces, terrace floors, boundary walls",
+      "a2": "Hotels & Resorts — large flat roof areas, pool deck surrounds, penthouse terraces",
+      "a3": "Warehouses & Factories — metal sheet roofing with highest heat gain",
+      "a4": "Schools & Healthcare — institutional buildings with high occupancy",
+      "a5": "Restaurants — reduce radiated heat above outdoor dining areas"
+    },
+    "pavement": {
+      "label": "COOL PAVEMENTS",
+      "headline": "From Roof to Ground — Complete Surface Cooling",
+      "body": "The same ceramic technology applies to outdoor paving, pool surrounds, terrace floors, and driveways. Standard dark paving radiates heat upward at foot level — making even a misted terrace feel hotter from the ground than the air above. Reflective pavement treatment reduces ground surface temperature by 10–15°C, completing the thermal comfort system.",
+      "note": "Recommended as an add-on to any misting installation on a sun-exposed hard surface."
+    },
+    "stats": {
+      "s1": "90%", "s1Label": "Solar Radiation Reflected",
+      "s2": "15–20°C", "s2Label": "Surface Temp Reduction",
+      "s3": "5–7 yrs", "s3Label": "Application Lifespan",
+      "s4": "All Roof Types", "s4Label": "Compatible"
+    },
+    "crossSell": "For complete outdoor comfort: combine cool roof coatings with a Fabtech misting system. We assess both in a single free site survey.",
+    "cta": "Book a Free Roof Assessment"
+  },
+  "shadeMisting": {
+    "meta": {
+      "title": "Shade Structures with Misting Qatar | Complete Outdoor Cooling | Fabtech",
+      "description": "Tensile shade canopies with Idrobase misting lines built in. One contractor, complete outdoor comfort system. Qatar hospitality, restaurant and villa installations."
+    },
+    "hero": {
+      "label": "SHADE STRUCTURES + INTEGRATED MISTING",
+      "headline": "Shade Makes It Bearable. Mist Makes It Comfortable.",
+      "sub": "Shade alone reduces solar radiation but does nothing for the heat already in the air. Mist alone is far more effective with shade overhead. Together, they are a complete outdoor climate system.",
+      "cta": "Request a Combined Assessment"
+    },
+    "why": {
+      "label": "WHY COMBINE",
+      "headline": "The sum is greater than the parts.",
+      "body": "A shade structure without misting keeps direct sun off but ambient temperature under the canopy can still reach 38–40°C on a July afternoon. A misting system without shade works harder to cool air that is constantly being heated by direct solar gain. Combined: shade cuts the solar input, misting cools the shaded air. Field data from comparable GCC installations shows combined shade-and-misting delivers 12–18°C reduction from open ambient — compared to 5–10°C for either solution alone.",
+      "note": "Fabtech designs both elements together and installs through one contract."
+    },
+    "includes": {
+      "label": "WHAT THE SYSTEM INCLUDES",
+      "shadeTitle": "The Shade Structure",
+      "shadeBody": "Tensile shade sail or fixed-frame fabric canopy. Available in HDPE UV-blocking fabric (95% shade factor). Stainless or powder-coated galvanised steel frame. Designed and fabricated to site dimensions.",
+      "mistTitle": "The Misting System",
+      "mistBody": "Idrobase Linea Kit misting lines installed along the structural beams during fabrication. Nozzles every 70cm. Connected to Fog Extra 2.0 or Fog 70 Var3 pump with WiFi thermostat control. UV sterilized water standard.",
+      "optTitle": "Optional Add-ons",
+      "optBody": "Aurora or Rondò designer misting poles positioned at perimeter of the shaded area for additional coverage and aesthetic impact."
+    },
+    "apps": {
+      "label": "APPLICATIONS",
+      "a1": "Restaurant & Café Terraces — permanent shade + mist over outdoor dining",
+      "a2": "Hotel Pool Decks — cabana shade structures with integrated misting",
+      "a3": "Mosque Courtyards — large open shade with cooling for congregational spaces",
+      "a4": "Gyms & CrossFit Boxes — covered training areas",
+      "a5": "Retail Forecourts — entrance canopies, outdoor markets, mall outdoor zones",
+      "a6": "Villa Gardens — custom pergola and shade sail with misting",
+      "a7": "Event & Wedding Venues — temporary and permanent event shade structures"
+    },
+    "crossSell": "We also supply cool pavement treatment for the surface underneath your shade structure — completing the thermal comfort system from overhead to underfoot.",
+    "cta": "Request a Free Combined Site Assessment"
+  },
+  "personalCooling": {
+    "meta": {
+      "title": "Personal Cooling Solutions Qatar | PCM Cooling Vests | Fabtech",
+      "description": "Phase Change Material cooling vests for outdoor workers in Qatar. Ministry of Labour compliant. Supply contracts for construction, hospitality, events, and maintenance teams."
+    },
+    "hero": {
+      "label": "PERSONAL COOLING SOLUTIONS",
+      "headline": "Keep Your People Cool Too.",
+      "sub": "Qatar's summer heat is not only a guest experience problem — it is a workforce safety challenge. Fabtech supplies PCM cooling vests, jackets, and accessories for any team working in outdoor conditions.",
+      "cta": "Request a Supply Quote"
+    },
+    "regulation": {
+      "label": "THE REGULATORY CONTEXT",
+      "headline": "Qatar's outdoor work regulations — what you need to know.",
+      "body": "Qatar's Ministry of Labour prohibits outdoor work between 10:00 AM and 3:30 PM from June 15 to September 15. Outside those hours, outdoor workers still face serious heat exposure risk — particularly during early morning and evening shifts. Employers have a duty of care for workers in outdoor conditions. PCM cooling vests are a recognized heat protection measure and Fabtech can supply them for construction crews, hospitality staff, landscaping teams, facility maintenance personnel, and outdoor event staff."
+    },
+    "products": {
+      "label": "PRODUCTS",
+      "p1Title": "PCM COOLING VEST",
+      "p1Body": "Phase Change Material panels inside a lightweight vest. Absorbs body heat and maintains safe skin temperature for 2–4 hours. Recharged by soaking panels in cold water for 20 minutes or placing in a freezer overnight. Sizes S to 3XL. CE marked.",
+      "p2Title": "PCM COOLING JACKET",
+      "p2Body": "Full jacket version for workers in high-sun-exposure roles. Shoulder and back PCM panel coverage in addition to front panels. Sizes S to 3XL.",
+      "p3Title": "EVAPORATIVE COOLING VEST",
+      "p3Body": "Lower-cost alternative. Soaked in cold water, worn wet — evaporation provides 2–3 hours of relief. No PCM panels. Best for roles with access to water refill points.",
+      "p4Title": "ACCESSORIES",
+      "p4Body": "Neck cooling wraps | Cooling bandanas | Cooling hard hat inserts | Wrist cooling bands"
+    },
+    "who": {
+      "label": "WHO IT'S FOR",
+      "items": ["Construction and infrastructure projects", "Outdoor hospitality and F&B staff", "Facility maintenance and cleaning crews", "Landscaping and groundskeeping teams", "Sports venue and event staff", "School outdoor supervision staff", "Security personnel in outdoor posts"]
+    },
+    "supply": {
+      "headline": "Seasonal Supply Contracts Available",
+      "body": "Fabtech offers seasonal supply contracts for organisations requiring ongoing cooling vest provision. Minimum order quantities apply. Contact us for bulk supply pricing."
+    },
+    "crossSell": "For fixed outdoor areas, combine personal cooling vests with a Fabtech misting system to create a complete outdoor work environment solution.",
+    "cta": "Request a Supply Quote"
+  },
+  "mosquitoControl": {
+    "meta": {
+      "title": "Mosquito Control Misting Qatar | Outdoor Insect Repellent System | Fabtech",
+      "description": "Automated mosquito and insect control misting for Qatar outdoor spaces. Runs through your existing Idrobase cooling system. Dusk-activated. Safe for food service environments."
+    },
+    "hero": {
+      "label": "MOSQUITO & INSECT CONTROL MISTING",
+      "headline": "Stay Outside After Sunset Too.",
+      "sub": "Qatar evenings bring insects that push guests indoors just as the temperature becomes bearable. Automated insect-control misting keeps your outdoor space usable after dark — through the same system that cools it during the day.",
+      "cta": "Ask About Mosquito Control"
+    },
+    "how": {
+      "label": "HOW IT WORKS",
+      "headline": "Same pipes. Same nozzles. Second function.",
+      "body": "Fabtech's mosquito control misting uses the same Idrobase high-pressure pipe network and nozzles as your cooling system — charged with a food-safe, approved insect-repellent concentrate instead of plain water. An automated timer activates the insect-control cycle at dusk — typically 30–60 minutes before evening service begins — and runs at intervals through the evening.",
+      "note": "No separate installation. No aerosol cans. No manual spraying. No chemical odour."
+    },
+    "specs": {
+      "label": "SYSTEM SPECS",
+      "s1Title": "CONCENTRATE", "s1Body": "Food-safe approved insect-repellent concentrate. Compatible with stainless steel nozzles and polyamide HP pipe. Approved for use in food service environments.",
+      "s2Title": "TIMER CONTROL", "s2Body": "Automated dusk-activation via Fog Extra 2.0 weekly programmer or Var3 Touch zone controller.",
+      "s3Title": "COVERAGE", "s3Body": "Same coverage as your cooling system — sized to your outdoor area.",
+      "s4Title": "CLEANING", "s4Body": "Monthly nozzle flush with clean water recommended to prevent concentrate residue buildup."
+    },
+    "apps": {
+      "label": "APPLICATIONS",
+      "a1": "Restaurants and café outdoor terraces — evening dining service",
+      "a2": "Villa gardens and pool decks — family outdoor evenings",
+      "a3": "Hotel pool decks and bar terraces — evening F&B service",
+      "a4": "Mosque courtyards — evening prayer time",
+      "a5": "Event venues and wedding spaces — evening events"
+    },
+    "disclaimer": {
+      "label": "HONEST NOTE ON EFFECTIVENESS",
+      "body": "Misted insect-repellent concentrate is effective at reducing insect presence in the treated zone during and immediately after misting cycles. It is not a total elimination solution and effectiveness varies with wind conditions and insect density. We recommend it as part of an overall outdoor comfort system, not as a standalone pest control service. For severe infestation problems, consult a qualified pest control contractor alongside this system."
+    },
+    "crossSell": "Most Fabtech misting installations can be upgraded to include mosquito control at minimal additional cost — the pipework is already in place.",
+    "cta": "Ask Us About Adding Mosquito Control"
+  },
+  "blog": {
+    "meta": {
+      "title": "Outdoor Cooling Blog Qatar | Misting System Guides | Fabtech",
+      "description": "Expert guides on outdoor cooling systems for Qatar — high-pressure misting, adiabatic cooling, cool roof coatings, and more from Fabtech."
+    },
+    "hero": {
+      "label": "BLOG",
+      "headline": "Outdoor Cooling. Expert Guides.",
+      "sub": "Everything you need to know about outdoor cooling in Qatar — from buying your first misting system to adiabatic chiller pre-cooling."
+    },
+    "readMore": "Read Article",
+    "allArticles": "All Articles"
   },
   "footer": {
     "tagline": "Clean. Cool. Healthy.",
