@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Check, ArrowRight } from "lucide-react";
@@ -25,8 +26,20 @@ function MosquitoControlContent({ locale }: { locale: string }) {
   return (
     <>
       {/* Hero */}
-      <section className="pt-32 pb-20 bg-charcoal text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative pt-32 pb-24 bg-charcoal text-white overflow-hidden">
+        <div className="absolute inset-0">
+          <Image
+            src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1600&q=75"
+            alt="Outdoor evening dining terrace"
+            fill
+            priority
+            sizes="100vw"
+            quality={75}
+            className="object-cover opacity-30"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-charcoal/60 to-charcoal" />
+        </div>
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="section-label-light mb-4">{t("hero.label")}</p>
           <h1
             className="text-4xl sm:text-5xl lg:text-7xl font-bold text-white leading-none tracking-tight mb-6 max-w-4xl"
